@@ -15,7 +15,7 @@ public class Ejercicio10_Main {
 		int intVentas = Integer.parseInt(numVentas);
 
 		// Creo un bucle para pedir el numero de unidades vendidas en cada venta
-		
+
 		int i = 1;
 		int ventasTotal = 0;
 		while (i <= intVentas + 2) {
@@ -27,8 +27,8 @@ public class Ejercicio10_Main {
 		}
 
 		// Muestro el total de unidades vendidas
-		
-		System.out.println("El total de ventas es de " + ventasTotal + ".");
+
+		JOptionPane.showMessageDialog(null, "El numero de ventas total es de " + ventasTotal);
 
 	}
 
